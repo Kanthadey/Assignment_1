@@ -29,7 +29,7 @@
 /* Button */
 .navbutton button{
     padding: 10px 20px;
-    background: blue;
+    background: rgb(79, 79, 222);
     color: white;
     border: none;
     border-radius: 5px;
