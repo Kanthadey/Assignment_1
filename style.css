@@ -29,7 +29,7 @@
 /* Button */
 .navbutton button{
     padding: 10px 20px;
-    background: rgb(79, 79, 222);
+    background: rgb(69, 69, 225);
     color: white;
     border: none;
     border-radius: 5px;
@@ -76,4 +76,230 @@
 }
 .hero_content button:hover{
     background-color: rgb(69, 69, 222);
+}
+/* speakers */
+.speakers h1{
+    text-align: center;
+    margin-bottom: auto;
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+.speakers{
+    width: 1200px;
+    margin: 100px auto;
+}
+.person img{
+    width: 100%; 
+    display: block;
+    border-radius: 10px;
+}
+
+.speakers_card{
+    max-width:1200px;
+    margin:80px auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+/* Pricing Section */
+
+.pricing-section{
+    max-width:1200px;
+    width:90%;
+    margin:100px auto;
+}
+
+.title-area{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.title-area h2{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.title-area p{
+    color:gray;
+}
+
+.pricing-wrapper{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.plan-card{
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:30px;
+}
+
+.featured-plan{
+    background:#0f172a;
+    color:#fff;
+    border:none;
+}
+
+.plan-card span{
+    color:#2563eb;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.plan-card h1{
+    font-size:48px;
+    margin:12px 0;
+}
+
+.price-text{
+    color:gray;
+    margin-bottom:15px;
+}
+
+.featured-plan .price-text{
+    color:#d1d5db;
+}
+
+.plan-card hr{
+    border:none;
+    border-top:1px solid #ddd;
+    margin:20px 0;
+}
+
+.featured-plan hr{
+    border-top:1px solid #334155;
+}
+
+.plan-card ul{
+    padding-left:20px;
+    margin-bottom:30px;
+}
+
+.plan-card li{
+    margin-bottom:14px;
+    line-height:1.5;
+}
+
+.plan-card li::marker{
+    color:#2563eb;
+}
+
+.plan-card button{
+    width:100%;
+    padding:14px;
+    border-radius:8px;
+    border:1px solid #2563eb;
+    background:#fff;
+    color:#2563eb;
+    cursor:pointer;
+}
+
+.featured-plan button{
+    background:#2563eb;
+    color:#fff;
+    border:none;
+}
+
+/* CTA Section */
+
+.cta-section{
+    max-width: 1200px;
+    width: 90%;
+    margin: 100px auto;
+    background: #0f172a;
+    border-radius: 12px;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.cta-content h2{
+    font-size: 42px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.cta-content p{
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #cbd5e1;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.cta-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.primary-btn{
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.primary-btn:hover{
+    background: #1d4ed8;
+}
+
+.secondary-btn{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.secondary-btn:hover{
+    background: white;
+    color: #0f172a;
+}
+
+/* Footer Section */
+
+.footer{
+    background: #0f172a;
+    padding: 30px 0;
+}
+
+.footer-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p{
+    color: gray;
+    font-size: 14px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+.footer-links a:hover{
+    color: white;
 }
